@@ -19,7 +19,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT color, Count(color) FROM bears WHERE color BETWEEN 2 AND 4"
+  "SELECT color, Count(color) FROM bears WHERE color BETWEEN " AND 4"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
